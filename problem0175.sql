@@ -1,7 +1,6 @@
 --
 -- Combine Two Tables
 --
-
 select
     p.firstName,
     p.lastName,
