@@ -1,14 +1,15 @@
 --
 -- Combine Two Tables
 --
-select
+SELECT
     p.firstName,
     p.lastName,
     a.city,
     a.state
-from
-    Person as p
-left join
-    Address as a
-on
+FROM
+    Person AS p
+LEFT JOIN
+    Address AS a
+ON
     p.personId = a.personId
+
