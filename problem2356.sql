@@ -12,5 +12,5 @@ FROM
         FROM
             Teacher
     ) AS distinct_teacher
-GROUP BY
+GROUP By
     distinct_teacher.teacher_ida
